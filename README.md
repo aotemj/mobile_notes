@@ -2,6 +2,11 @@
 
 ## 通用
 
+### 移动端 input输入密码的时候调用纯数字键
+
+- 在 input 的style 标签中加入 ”-webkit-text-security:disc“ 属性
+- <input type="tel" style="-webkit-text-security:disc">
+
 ## android
 
 ## ios
